@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: #cccccc;
+    font-weight: 1;
+    font-family: 'PT Serif', serif;
+}
+body{
+    background-color: black;
+    overflow-x: hidden;
+    height: 300vh;
+}
+span{
+    font-weight: bolder;
+    font-family: 'Open Sans', sans-serif;
+    color: #aaaaaa;
+}
+#page1{
+    height: 33.3%;
+}
+#page1 ul{
+    font-size: 6.5em;
+}
+header{
+    padding: 2em 12em;
+    font-size: 0.4em;
+}
+#ul1 li{
+    display: inline;
+}
+#enter{
+    text-align: center;
+    margin: 0 10em 0 14em;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+}
+#lista{
+    position: relative;
+    top: 1em;
+    left: 16em;
+}
+#brad{
+    color: green;
+}
+img{
+    height: 80px;
+    width: 120px;
+    background-color: black;
+}
+#page2{
+    height: 33.3%;
+    font-size: 1.5em;
+}
+.cuprins{
+    position:absolute;
+}
+#cuprins1{
+    top: 110vh;
+    left: 5em;
+}
+#title1{
+    padding-bottom: 0.4em;
+}
+#cuprins2{
+    top: 145vh;
+    left: 5em;
+}
+#cuprins3{
+    top: 145vh;
+    right: 10vw;
+}
+#subliniat{
+    border-bottom-style: solid;
+}
+
+#page3{
+    height: 33.3%;
+}
+#titlepage3{
+    position: relative;
+    top: 0.5em;
+    left: 1em;
+    font-size: 4em;
+}
+
+ol {
+    position: relative;
+    top: 7em;
+    left: 25em;
+    list-style: none;
+    counter-reset: my-awesome-counter;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+  }
+  ol li {
+      padding-bottom: 1em;
+    counter-increment: my-awesome-counter;
+    display: flex;
+    width: 50%;
+    font-size: 1.3em;
+    margin:0 0 1em 0;
+  }
+  ol li::before {
+    content: "0" counter(my-awesome-counter);
+    font-weight: bold;
+    font-size: 3em;
+    margin-right: 0.5em;
+    line-height: 1;
+  }
+  .bottomborder{
+    border-bottom-style: solid;
+    border-color: #cccccc;
+  }
+  table{
+      border-collapse: collapse;
+      font-size: 1.5em;
+      width: 100%;
+      border-style: solid;
+      border-color: white;
+      text-align: center;
+  }
+  th, td{
+      padding: 1em;
+      border-style:solid;
+      border-color: white;
+  }
+  #big{
+      font-size: 3em;
+  }
+  .linie{
+      display: inline;
+  }
+  #ultimalinie{
+      padding: 3em;
+  }
+  #right{
+      position: absolute;
+      top: 340%;
+      left: 88%;
+  }
